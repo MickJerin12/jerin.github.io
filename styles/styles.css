@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+    font-family: 'Raleway', sans-serif;
+   
+    
+    line-height: 2.5em;
+    font-weight: 900;
+    background-image: url("https://image.freepik.com/free-vector/watercolour-splatter-in-rainbow-colours_1048-6320.jpg");
+    
+}
+.dabba{
+   background-color::transparent;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+.our-content{
+     max-width:500px;
+     font-weight: 900;
+     line-height: 2.5em;
+     font-family: 'Raleway', sans-serif;
+     margin:auto;
+     padding-top: 80px;
+     padding-bottom: 70px;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+    color: red;
+}
+
+
+.active{
+    background-color: orange;
+}
